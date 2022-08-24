@@ -1,0 +1,25 @@
+{
+    "name": "nicodinus/php-cs-fixer-config",
+    "homepage": "https://github.com/nicodinus/php-cs-fixer-config",
+    "description": "",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicodinus",
+            "email": "nicodinus@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nicodinus\\CodeStyle\\": "lib"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "friendsofphp/php-cs-fixer": "^3.10"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
