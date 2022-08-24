@@ -1,6 +1,6 @@
 <?php
 
-namespace Nicodinus\lib;
+namespace Nicodinus\CodeStyle;
 
 use PhpCsFixer\Config as PhpCsFixerConfig;
 use function dirname;
@@ -65,8 +65,8 @@ class Config extends PhpCsFixerConfig
             "short_scalar_cast" => true,
             "single_blank_line_before_namespace" => true,
             "line_ending" => true,
-            "no_superfluous_phpdoc_tags" => true,
-            "no_empty_phpdoc" => false,
+            "no_superfluous_phpdoc_tags" => false,
+            "no_empty_phpdoc" => true,
             "no_extra_blank_lines" => true,
         ];
     }
