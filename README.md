@@ -1,5 +1,7 @@
 # nicodinus/php-cs-fixer-config
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+
 ## Installation
 
 ```
@@ -38,7 +40,3 @@ Add `.php_cs.cache` (the cache file used by `php-cs-fixer`) to `.gitignore`:
 /.php_cs.cache
 /.phpunit.result.cache
 ```
-
-## License
-
-This package is licensed using the MIT License.
